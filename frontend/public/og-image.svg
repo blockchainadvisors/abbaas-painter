@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b"/>
+      <stop offset="100%" style="stop-color:#312e81"/>
+    </linearGradient>
+    <linearGradient id="brushGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="magicGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f472b6"/>
+      <stop offset="100%" style="stop-color:#c084fc"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="200" fill="#6366f1" opacity="0.1"/>
+  <circle cx="1100" cy="530" r="250" fill="#8b5cf6" opacity="0.1"/>
+
+  <!-- Logo area -->
+  <g transform="translate(150, 180)">
+    <!-- Logo circle -->
+    <circle cx="115" cy="135" r="110" fill="#1e1b4b" stroke="#6366f1" stroke-width="3"/>
+
+    <!-- Paintbrush handle -->
+    <rect x="130" y="60" width="20" height="90" rx="4" fill="url(#brushGrad)" transform="rotate(45 140 105)"/>
+
+    <!-- Brush ferrule -->
+    <rect x="130" y="145" width="20" height="15" rx="2" fill="#a1a1aa" transform="rotate(45 140 152)"/>
+
+    <!-- Brush bristles -->
+    <path d="M80 170 Q65 195 80 220 Q95 235 115 235 Q135 235 150 220 Q165 195 150 170 Q125 182 115 180 Q105 182 80 170Z" fill="url(#magicGrad)"/>
+
+    <!-- Sparkles -->
+    <g fill="#fbbf24">
+      <path d="M40 100 L46 112 L58 118 L46 124 L40 136 L34 124 L22 118 L34 112 Z"/>
+      <path d="M180 70 L184 78 L192 82 L184 86 L180 94 L176 86 L168 82 L176 78 Z"/>
+      <path d="M55 175 L58 181 L64 184 L58 187 L55 193 L52 187 L46 184 L52 181 Z"/>
+      <path d="M190 150 L194 158 L202 162 L194 166 L190 174 L186 166 L178 162 L186 158 Z"/>
+    </g>
+  </g>
+
+  <!-- Text content -->
+  <text x="420" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="white">Abbaas Painter</text>
+  <text x="420" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#a5b4fc">AI-Powered Image Inpainting</text>
+
+  <!-- Description -->
+  <text x="420" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#c7d2fe">Remove unwanted objects from your images</text>
+  <text x="420" y="435" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#c7d2fe">using state-of-the-art deep learning</text>
+
+  <!-- Features -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#e0e7ff">
+    <text x="420" y="510">
+      <tspan fill="#fbbf24">✦</tspan> Drag &amp; Drop Upload
+    </text>
+    <text x="650" y="510">
+      <tspan fill="#fbbf24">✦</tspan> Interactive Brush Tool
+    </text>
+    <text x="920" y="510">
+      <tspan fill="#fbbf24">✦</tspan> Instant Results
+    </text>
+  </g>
+
+  <!-- URL -->
+  <text x="420" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#818cf8">abbaas.badev.tools</text>
+</svg>
