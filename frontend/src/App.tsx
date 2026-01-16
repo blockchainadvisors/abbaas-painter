@@ -51,7 +51,10 @@ function App() {
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">Abbaas Painter</h1>
+          <div className="flex items-center justify-center gap-3 mb-2">
+            <img src="/logo.svg" alt="Abbaas Painter" className="w-12 h-12" />
+            <h1 className="text-4xl font-bold text-gray-800">Abbaas Painter</h1>
+          </div>
           <p className="text-gray-600">
             Upload an image, brush over objects to remove, and let AI do the magic
           </p>
